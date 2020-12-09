@@ -9,6 +9,26 @@
 <body>
     <div id="app">
         <h1>Currency converter</h1>
+
+        <div class="converter">
+            <div class="convert-from">
+                <select name="currencies" id="currency-from" class="form">
+                    <option value="">From</option>
+                    <option value="0">USD</option>
+                </select>
+                <input type="number" class="amount" placeholder="value" class="form">
+            </div>
+            <div class="convert-to">
+                <select name="currencies" id="currency-from" class="form">
+                    <option value="">To</option>
+                    <option value="0">USD</option>
+                </select>
+                <input type="number" class="amount" class="form" placeholder="value">
+            </div>
+
+            <p>Result: 1.11USD</p>
+        
+        </div>
     </div>
 
     <script src="js/main.js"></script>
