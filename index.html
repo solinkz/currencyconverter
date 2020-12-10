@@ -3,34 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,300,400,700,900" rel="stylesheet">
     <title>Currency Converter</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div id="app">
-        <h1>Currency converter</h1>
-
-        <div class="converter">
-            <div class="convert-from">
-                <select name="currencies" id="currency-from" class="form">
-                    <option value="">From</option>
-                    <option value="0">USD</option>
-                </select>
-                <input type="number" class="amount" placeholder="value" class="form">
+    <section>
+        <div id="app">
+            <div class="heading">
+                <img src="img/Rectangle 6.png" alt="">
+                <h1>Currency converter</h1>
             </div>
-            <div class="convert-to">
-                <select name="currencies" id="currency-from" class="form">
-                    <option value="">To</option>
-                    <option value="0">USD</option>
-                </select>
-                <input type="number" class="amount" class="form" placeholder="value">
+    
+            <div class="converter">
+                <div class="convert-from">
+                    <select name="currencies" id="currency-from" class="form">
+                        <option value="">From</option>
+                        <option value="0">USD</option>
+                    </select>
+                    <input type="number" class="amount" placeholder="value" class="form">
+                </div>
+                <div class="icon">
+                    <i class="fas fa-exchange-alt"></i>
+                </div>
+                <div class="convert-to">
+                    <select name="currencies" id="currency-from" class="form">
+                        <option value="">To</option>
+                        <option value="0" class="line">USD</option>
+                    </select>
+                    <input type="number" class="amount" class="form" placeholder="value">
+                    
+                </div>
+                <p>schoolite2020</p>
+                
+                <!-- <p>Result: 1.11USD</p> -->
+            
             </div>
-
-            <p>Result: 1.11USD</p>
-        
         </div>
-    </div>
-
+    </section>
+    
     <script src="js/main.js"></script>
+    <script src="https://kit.fontawesome.com/8b99ba209b.js" crossorigin="anonymous"></script>
 </body>
 </html>
