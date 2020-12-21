@@ -89,7 +89,7 @@ CurrencyConverter.fetchCurrencies().then(response => {
 // add from value to object
 currencyFrom.addEventListener('change', function(){
     currencyConverter.convertFrom = this.value;
-    currencyConverter.valueIsSet ? currencyConverter.fetchConversionValue() : '';
+    currencyConverter.valueIsSet ? currencyConverter.fetchConversionValue() : ''; 
 });
 
 // add to value to object
